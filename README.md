@@ -8,6 +8,10 @@
 </p>
 
 ## Installasi
+- cd app
+  ``` bash
+    cd laravel-electron-app
+  ```
 - composer install
   ``` bash
     composer install
@@ -16,6 +20,7 @@
   ``` bash
     npm install --force
   ```
+- buat file .env dari .env.example
 - php artisan key:gen
   ``` bash
     php artisan key:gen
@@ -23,6 +28,14 @@
 - php artisan migrate
   ``` bash
     php artisan migrate
+  ```
+- php artisan serve
+  ``` bash
+    php artisan serve
+  ```
+- npm run dev
+  ``` bash
+    npm run dev
   ```
 - npm run build
   ``` bash
