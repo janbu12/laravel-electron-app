@@ -51,6 +51,12 @@
   ```
 - jika ingin mengubah database menjadi mysql tinggal buat file .env dimana hasil copy dari .env.example
 
+## Builder App
+- untuk membuat menjadi .exe
+    ``` bash
+       npx electron-packager . laravel-electron-app --platform=win32 --arch=x64 --out=application --overwrite
+    ```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
