@@ -53,7 +53,7 @@
 ## Builder App
 - untuk membuat menjadi .exe
     ``` bash
-       npx electron-packager . laravel-electron-app --platform=win32 --arch=x64 --out=application --overwrite
+       npx electron-packager . crud-laravel-electron-app   --platform=win32   --arch=x64   --out=application   --overwrite   --icon=dist/logo.ico   --app-version=1.0.0   --build-version=1.0.0   --product-              name="Crud Laravel Electron App"   --win32metadata.CompanyName="My Company"   --win32metadata.FileDescription="A description of my Electron app"   --win32metadata.OriginalFilename="application.exe"              --w in32metadata.ProductName="Crud Laravel Electron App"
     ```
 
 ## About Laravel
