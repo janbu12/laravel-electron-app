@@ -20,7 +20,7 @@
   ``` bash
     npm install --force
   ```
-- buat file .env dari .env.example
+- buat file .env dari .env.example (untuk database harap tidak diubah cukup pakai sqlite)
 - php artisan key:gen
   ``` bash
     php artisan key:gen
@@ -49,7 +49,6 @@
   ``` bash
     npm start
   ```
-- jika ingin mengubah database menjadi mysql tinggal buat file .env dimana hasil copy dari .env.example
 
 ## Builder App
 - untuk membuat menjadi .exe
