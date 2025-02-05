@@ -1,4 +1,7 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center">
+<img src="https://www.electronjs.org/assets/img/logo.svg" alt="ElectronJS" width="200"/> 
+<img src="https://laravel.com/img/logomark.min.svg" alt="Laravel Logo" width="170"/> 
+</p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -53,7 +56,20 @@
 ## Builder App
 - untuk membuat menjadi .exe
     ``` bash
-       npx electron-packager . crud-laravel-electron-app   --platform=win32   --arch=x64   --out=application   --overwrite   --icon=dist/logo.ico   --app-version=1.0.0   --build-version=1.0.0   --product-              name="Crud Laravel Electron App"   --win32metadata.CompanyName="My Company"   --win32metadata.FileDescription="A description of my Electron app"   --win32metadata.OriginalFilename="application.exe"              --w in32metadata.ProductName="Crud Laravel Electron App"
+        npx electron-packager . crud-laravel-electron-app
+        --platform=win32
+        --arch=x64
+        --out=application
+        --overwrite
+        --icon=dist/logo.ico
+        --app-version=1.0.0
+        --build-version=1.0.0
+        --product-
+        name="Crud Laravel Electron App"
+        --win32metadata.CompanyName="My Company"
+        --win32metadata.FileDescription="A description of my Electron app"
+        --win32metadata.OriginalFilename="application.exe"
+        --w in32metadata.ProductName="Crud Laravel Electron App"
     ```
 
 ## About Laravel
